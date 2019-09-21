@@ -1,16 +1,19 @@
 <template>
   <div class="py-5 px-8">
     <me-heading />
+    <me-navigation />
     <nuxt />
   </div>
 </template>
 
 <script>
 import MeHeading from '@/components/MeHeading'
+import MeNavigation from '@/components/MeNavigation'
 
 export default {
   components: {
-    MeHeading
+    MeHeading,
+    MeNavigation
   }
 }
 </script>

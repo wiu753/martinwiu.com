@@ -1,9 +1,4 @@
-.placeholder {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-}
-
 html {
   /* Set slight gray background */
-  @apply bg-gray-100
+  @apply bg-gray-100;
 }

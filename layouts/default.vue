@@ -1,8 +1,19 @@
 <template>
-  <div>
+  <div class="py-5 px-8">
+    <me-heading />
     <nuxt />
   </div>
 </template>
+
+<script>
+import MeHeading from '@/components/MeHeading'
+
+export default {
+  components: {
+    MeHeading
+  }
+}
+</script>
 
 <style>
 html {

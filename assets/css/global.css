@@ -2,3 +2,29 @@ html {
   /* Set slight gray background */
   @apply bg-gray-100;
 }
+
+.me-underline {
+	text-decoration: none;
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	transition: all .10s ease;
+}
+
+.me-underline::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	left: 0;
+	background-color: rgba(42, 105, 242, 0.5);
+	bottom: 5px;
+	outline: none;
+	text-decoration: none;
+	height: 25%;
+	transition: all .10s ease;
+}
+
+.me-underline:hover::after {
+	height: 15%;
+	bottom: 0px;
+}

@@ -38,7 +38,7 @@ export default {
 			const res = Math.abs(today - startedCoding) / 1000
 			const days = Math.floor(res / 86400)
 			return +days
-		},
-	},
+		}
+	}
 }
 </script>

@@ -15,24 +15,26 @@
 
 <script>
 export default {
-	data() {
+	data () {
 		return {
 			birthday: '06/21/1995',
-			startedCoding: '01/01/2019',
+			startedCoding: '01/01/2019'
 		}
 	},
 	computed: {
-		age() {
+		age () {
 			const today = new Date()
 			const birthDate = new Date(this.birthday)
 			const age = today.getFullYear() - birthDate.getFullYear()
 			const m = today.getMonth() - birthDate.getMonth()
+
 			if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
 				age--
 			}
+
 			return age
 		},
-		daysCoded() {
+		daysCoded () {
 			const today = new Date()
 			const startedCoding = new Date(this.startedCoding)
 			const res = Math.abs(today - startedCoding) / 1000

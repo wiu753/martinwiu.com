@@ -1,27 +1,26 @@
 html {
-  /* Set slight gray background */
-  @apply bg-gray-100;
+  @apply bg-gray-100; /* Set slight gray background */
 }
 
 .me-underline {
-	text-decoration: none;
-	position: relative;
-	display: inline-block;
 	padding: 0;
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
 	transition: all .10s ease;
 }
 
 .me-underline::after {
-	content: "";
-	position: absolute;
-	width: 100%;
 	left: 0;
-	background-color: rgba(42, 105, 242, 0.5);
+	content: "";
+	width: 100%;
 	bottom: 5px;
-	outline: none;
-	text-decoration: none;
 	height: 20%;
+	outline: none;
+	position: absolute;
+	text-decoration: none;
 	transition: all .10s ease;
+	background-color: rgba(42, 105, 242, 0.5);
 }
 
 .me-underline:hover::after {

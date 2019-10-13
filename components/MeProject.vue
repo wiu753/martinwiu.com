@@ -13,7 +13,7 @@
 export default {
 	props: {
 		title: String,
-		githubLink: String,
-	},
+		githubLink: String
+	}
 }
 </script>

@@ -1,8 +1,8 @@
 <template>
-	<li class="mb-4 sm:mb-8">
+	<li>
 		<div>
 			<h3 class="mb-2">
-				<a class="underline hover:underline" :href="link">{{ title }}</a>
+				<a class="underline hover:text-gray-500" :href="link">{{ title }}</a>
 			</h3>
 			<slot></slot>
 		</div>

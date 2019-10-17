@@ -10,9 +10,8 @@
 				<a class="me-underline" href="https://www.muniolms.com">Munio</a> as a web developer.
       </p>
 			<p class="my-4 md:text-xl">
-				My favorite frameworks are <a href="https://vuejs.org/" class="me-underline">Vue</a> and <a href="https://tailwindcss.com/" class="me-underline">Tailwind</a>. I'm capable in React, Laravel and SQL.
-				I'm not a designer but really enjoy the theory behind UI/UX.
-				Focusing on accessibility and universal design with a mobile first approach is how I like to work.
+				My favorite frameworks are <a href="https://vuejs.org/" class="me-underline">Vue</a> and <a href="https://tailwindcss.com/" class="me-underline">Tailwind</a>.
+				I also have experience with HTML, CSS, JavaScript, PHP, Laravel, React, SASS and MySQL.
 			</p>
     </article>
   </div>

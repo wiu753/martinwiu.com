@@ -27,8 +27,4 @@
   svg {
     color: black;
   }
-
-  /* svg:hover {
-    color: rgba(38, 194, 38, 0.5);
-  } */
 </style>

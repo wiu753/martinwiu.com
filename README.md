@@ -1,4 +1,4 @@
-# martinwiulsrod.me
+# Hey, I'm Martin
 
 This is my personal website, click <a href="https://www.martinwiulsrod.me">here</a> to check it out.
 

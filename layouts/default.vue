@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style scoped>
-  .wrapper {  /* Sticky footer */
+  .wrapper {
     display: flex;
     min-height: 100vh;
     flex-direction: column;

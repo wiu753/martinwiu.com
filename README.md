@@ -1,6 +1,6 @@
 # martinwiulsrod.me
 
-> Personal website
+This is my personal website, click <a href="https://www.martinwiulsrod.me">here</a> to check it out.
 
 ## Build Setup
 
@@ -20,3 +20,6 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## Licence
+MIT © <a href="https://github.com/wiu753">Martin Wiulsrød</a>

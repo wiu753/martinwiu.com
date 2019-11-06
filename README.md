@@ -1,10 +1,14 @@
 # Hey, I'm Martin
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1ba37bac-32ef-40af-95c3-91c3bd1cded4/deploy-status)](https://app.netlify.com/sites/quizzical-ptolemy-094a43/deploys)
 
-This is my personal website, click <a href="https://www.martinwiulsrod.me">here</a> to check it out.
+This is my website, nothing fancy. If you wan't to <a href="https://www.martinwiulsrod.me">check it out</a>, you can do so.
 
-## Build Setup
+## If you are a weirdo and want to run this locally
 
 ``` bash
+# clone repository
+$ git clone https://github.com/wiu753/martinwiulsrod.me
+
 # install dependencies
 $ npm run install
 
@@ -18,8 +22,6 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ## Licence
 MIT © <a href="https://github.com/wiu753">Martin Wiulsrød</a>

@@ -17,7 +17,6 @@
     </article>
   </div>
 </template>
-CHANGE THE GOT INTRODUCED SENTENCE! USING AGO TWICE
 <script>
 export default {
 	computed: {

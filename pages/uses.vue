@@ -15,7 +15,7 @@
 			</ul>
 		</div>
 		<div>
-			<h2 class="text-xl mb-4 sm:text-2xl font-semibold">Software</h2>
+			<h2 class="text-xl mb-4 mt-4 sm:text-2xl font-semibold">Software</h2>
 			<ul class="list-disc ml-5 md:text-xl">
 				<me-uses title="VSCode" link="https://code.visualstudio.com/" />
 				<me-uses title="iTerm2" link="https://www.iterm2.com/" />

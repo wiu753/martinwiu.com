@@ -4,7 +4,7 @@
         <me-heading />
         <me-navigation />
         <me-wave />
-        <nuxt class="-mt-4" />
+        <nuxt />
       </div>
       <me-footer />
     </div>

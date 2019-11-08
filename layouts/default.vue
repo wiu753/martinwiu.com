@@ -1,8 +1,11 @@
 <template>
-    <div class="py-6 px-8 wrapper md:max-w-3xl md:px-32 md:py-16 xl:max-w-5xl">
-      <me-heading />
-      <me-navigation />
-      <nuxt class="page-body xl:pl-32" />
+    <div class="wrapper">
+      <div class="page-body">
+        <me-heading />
+        <me-navigation />
+        <me-wave />
+        <nuxt class="-mt-4" />
+      </div>
       <me-footer />
     </div>
 </template>
@@ -11,12 +14,14 @@
 import MeHeading from '@/components/MeHeading'
 import MeNavigation from '@/components/MeNavigation'
 import MeFooter from '@/components/MeFooter'
+import MeWave from '@/components/MeWave'
 
 export default {
   components: {
     MeHeading,
     MeNavigation,
-    MeFooter
+    MeFooter,
+    MeWave
   }
 }
 </script>

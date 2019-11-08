@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="px-8" :class="theme">
     <article>
       <h1 class="text-3xl mb-4 font-semibold">Who am I?</h1>
       <p class="md:text-xl">
@@ -9,7 +9,7 @@
         from treehouse. Started coding {{ daysCoded }} days ago. Currently employed at
 				<a class="me-underline" href="https://www.muniolms.com">Munio</a> as a web developer.
       </p>
-			<p class="my-4 md:text-xl">
+			<p class="mt-4 md:text-xl">
 				My favorite frameworks are <a href="https://vuejs.org/" class="me-underline">Vue</a> and <a href="https://tailwindcss.com/" class="me-underline">Tailwind</a>.
 				I also have experience with HTML, CSS, JavaScript, PHP, Laravel, React, SASS and MySQL.
 			</p>

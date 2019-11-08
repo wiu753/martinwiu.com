@@ -11,7 +11,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
       { name: 'msapplication-TileColor', content: '#da532c' },
-      {name: 'theme-color', content: '#ffffff' }
+      { name: 'theme-color', content: '#ffffff' }
     ],
     link: [
       { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },

@@ -1,5 +1,5 @@
 <template>
-	<footer class="flex my-8 xl:pl-32">
+	<footer class="flex my-8 pl-8 xl:pl-32">
 
 		<a class="mr-4" href="https://github.com/wiu753" title="Go to my GitHub page">
 			<svg class="w-8 h-8 sm:w-10 sm:h-10 fill-current hover:text-gray-500" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

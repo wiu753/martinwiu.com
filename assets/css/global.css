@@ -1,5 +1,5 @@
 html {
-  @apply bg-gray-100; /* Set slight gray background */
+	@apply bg-gray-100;
 }
 
 .me-underline {
@@ -11,16 +11,12 @@ html {
 }
 
 .me-underline::after {
-	left: 0;
 	content: "";
-	width: 100%;
-	bottom: 5px;
 	height: 20%;
-	outline: none;
-	position: absolute;
-	text-decoration: none;
+	bottom: 4px;
 	transition: all .10s ease;
-	background-color: rgba(42, 105, 242, 0.5);
+	background-color: rgb(127, 156, 245, 0.500);
+	@apply left-0 w-full outline-none absolute no-underline;
 }
 
 .me-underline:hover::after {

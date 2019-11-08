@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="pl-8 bg-gray-100">
 		<div>
 			<h1 class="text-3xl mb-4 font-semibold">Uses</h1>
 		</div>

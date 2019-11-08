@@ -1,7 +1,7 @@
 <template>
 	<li>
 		<div>
-			<h3 class="mb-2">
+			<h3 class="pb-2">
 				<a class="underline hover:text-gray-500" :href="link">{{ title }}</a>
 			</h3>
 			<slot></slot>

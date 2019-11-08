@@ -20,7 +20,7 @@
 				<me-uses title="VSCode" link="https://code.visualstudio.com/" />
 				<me-uses title="iTerm2" link="https://www.iterm2.com/" />
 				<me-uses title="Chrome" link="https://www.google.com/chrome/" />
-				<me-uses title="GitHub Desktop" link="https://desktop.github.com/" />
+				<me-uses title="GitKraken" link="https://www.gitkraken.com/" />
 			</ul>
 		</div>
 	</div>

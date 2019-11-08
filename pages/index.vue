@@ -6,7 +6,8 @@
 				I'm Martin, a {{ age }}-year old Norwegian web developer.
 				I have a bachelor's degree in information systems and a
 				<a class="me-underline" href="https://www.credential.net/ur7cv6bc">front-end tech degree</a>
-        from treehouse. Started coding {{ daysCoded }} days ago. Currently employed at
+        from treehouse. Got introduced to coding {{ introducedToCoding }} years back but started
+				actively {{ daysCoded }} days ago. Currently employed at
 				<a class="me-underline" href="https://www.muniolms.com">Munio</a> as a web developer.
       </p>
 			<p class="mt-4 md:text-xl">
@@ -16,19 +17,14 @@
     </article>
   </div>
 </template>
-
+CHANGE THE GOT INTRODUCED SENTENCE! USING AGO TWICE
 <script>
 export default {
-	data () {
-		return {
-			birthday: '06/21/1995',
-			startedCoding: '01/01/2019'
-		}
-	},
 	computed: {
 		age () {
+			const birthday = '06/21/1995'
 			const today = new Date()
-			const birthDate = new Date(this.birthday)
+			const birthDate = new Date(birthday)
 			const age = today.getFullYear() - birthDate.getFullYear()
 			const m = today.getMonth() - birthDate.getMonth()
 
@@ -39,11 +35,25 @@ export default {
 			return age
 		},
 		daysCoded () {
+			const startedCodingDate = '01/01/2019'
 			const today = new Date()
-			const startedCoding = new Date(this.startedCoding)
+			const startedCoding = new Date(startedCodingDate)
 			const res = Math.abs(today - startedCoding) / 1000
 			const days = Math.floor(res / 86400)
-			return +days
+			return days
+		},
+		introducedToCoding () {
+			const dateIntroducedToCoding = '01/06/2015'
+			const today = new Date()
+			const introducedToCoding = new Date(dateIntroducedToCoding)
+			const yearsSinceIntroduced = today.getFullYear() - introducedToCoding.getFullYear()
+			const m = today.getMonth() - introducedToCoding.getMonth()
+
+			if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+				yearsSinceIntroduced--
+			}
+
+			return yearsSinceIntroduced
 		}
 	}
 }

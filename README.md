@@ -23,5 +23,9 @@ $ npm run start
 $ npm run generate
 ```
 
+## Credit
+- <a href="https://www.zondicons.com/">Zondicons</a>
+- <a href="https://simpleicons.org/">Simple icons</a>
+
 ## Licence
 MIT © <a href="https://github.com/wiu753">Martin Wiulsrød</a>

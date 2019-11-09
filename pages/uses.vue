@@ -1,12 +1,12 @@
 <template>
-	<div class="-mt-4 md:-mt-16 xl:-mt-32 xxl:-mt-56 xxxl:-mt-64 px-8 md:px-32 xl:pl-64 md:max-w-3xl xl:max-w-5xl">
+	<div class="px-8 md:px-32 xl:pl-64 md:max-w-3xl xl:max-w-5xl">
 			<h1 class="text-3xl mb-4 font-semibold">Uses</h1>
 			<h2 class="text-xl mb-4 font-semibold sm:text-2xl text-gray-700">Workstation</h2>
-			<div v-for="(item, index) in hardware" :key="'hardware' + index" class="mb-2 md:text-xl">
+			<div v-for="(item, index) in hardware" :key="'hardware' + index" class="mb-2 md:text-xl lg:mb-3">
 				<me-uses :title="item.title" :link="item.link" :icon="item.icon" />
 			</div>
 			<h2 class="text-xl mb-4 mt-4 sm:text-2xl font-semibold text-gray-700">Software</h2>
-			<div v-for="(item, index) in software" :key="'software'+ index" class="mb-2 md:text-xl">
+			<div v-for="(item, index) in software" :key="'software'+ index" class="mb-2 md:text-xl lg:mb-3">
 				<me-uses :title="item.title" :link="item.link" :icon="item.icon" />
 			</div>
 	</div>

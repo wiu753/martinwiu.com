@@ -6,7 +6,6 @@
 */
 module.exports = {
   theme: {
-
     screens: {
       'sm': '640px',
       'md': '768px',
@@ -16,6 +15,8 @@ module.exports = {
       'xxxl': '2800px'
     }
   },
-  variants: {},
+  variants: {
+    backgroundColor: ['hover', 'active']
+  },
   plugins: []
 }

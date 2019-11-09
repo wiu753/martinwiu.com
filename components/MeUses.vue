@@ -2,8 +2,8 @@
 	<a class="hover:bg-orange-500" :href="link">
 		<me-card>
 			<div class="flex items-center">
-				<img class="w-8 mr-4" :src="icon" alt="">
-				<p>{{ title }}</p>
+				<img class="w-8 mr-4 lg:w-12 lg:mr-6" :src="icon" alt="">
+				<p class="">{{ title }}</p>
 			</div>
 		</me-card>
 	</a>

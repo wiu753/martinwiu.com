@@ -1,5 +1,5 @@
 <template>
-  <div class="-mt-4 md:-mt-16 xl:-mt-32 xxl:-mt-56 xxxl:-mt-64 px-8 md:px-32 xl:pl-64 md:max-w-3xl xl:max-w-5xl">
+  <div class=" px-8 md:px-32 xl:pl-64 md:max-w-3xl xl:max-w-5xl">
     <article>
       <h1 class="text-3xl mb-4 font-semibold">Who am I?</h1>
       <p class="md:text-xl">

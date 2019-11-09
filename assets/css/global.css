@@ -27,3 +27,7 @@ html {
 .me-gradient {
 	background: linear-gradient(90deg, rgba(27,84,128,1) 0%, rgba(27,84,128,1) 25%, rgba(33,141,150,1) 100%);
 }
+
+.me-transition {
+	transition: all 0.2s ease;
+}

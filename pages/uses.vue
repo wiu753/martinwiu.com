@@ -5,10 +5,10 @@
 			<div v-for="(item, index) in hardware" :key="'hardware' + index" class="mb-2 md:text-xl">
 				<me-uses :title="item.title" :link="item.link" :icon="item.icon" />
 			</div>
-			<h2 class="text-xl mb-4 mt-4 sm:text-2xl font-semibold">Software</h2>
-			<ul v-for="(item, index) in software" :key="'software'+ index" class="mb-2 md:text-xl">
+			<h2 class="text-xl mb-4 mt-4 sm:text-2xl font-semibold text-gray-700">Software</h2>
+			<div v-for="(item, index) in software" :key="'software'+ index" class="mb-2 md:text-xl">
 				<me-uses :title="item.title" :link="item.link" :icon="item.icon" />
-			</ul>
+			</div>
 	</div>
 </template>
 

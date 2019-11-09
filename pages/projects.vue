@@ -1,12 +1,12 @@
 <template>
 	<div class="-mt-4 md:-mt-16 xl:-mt-32 xxl:-mt-56 xxxl:-mt-64 px-8 md:px-32 xl:pl-64 md:max-w-3xl xl:max-w-5xl">
 			<h1 class="text-3xl mb-4 font-semibold">Projects</h1>
-      <h2 class="text-xl mb-4 font-semibold sm:text-2xl">Bigger</h2>
+      <h2 class="text-xl mb-4 font-semibold sm:text-2xl text-gray-700">Bigger</h2>
       <!-- <p class="md:text-xl pb-2">Such empty, much wow.</p> -->
 			<ul v-for="(project, index) in bigProjcets" :key="'big' + index" class="list-disc ml-5 md:text-xl">
 				<me-project :title="project.title" :link="project.link" :description="project.description" :projectSize="project.size" />
 			</ul>
-      <h2 class="text-xl mb-4 mt-4 font-semibold sm:text-2xl">Smaller</h2>
+      <h2 class="text-xl mb-4 mt-4 font-semibold sm:text-2xl text-gray-700">Smaller</h2>
 			<ul v-for="(project, index) in smallProjects" :key="'small' +index" class="list-disc ml-5 md:text-xl">
 				<me-project :title="project.title" :link="project.link" :description="project.description" />
 			</ul>

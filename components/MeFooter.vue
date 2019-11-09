@@ -1,5 +1,5 @@
 <template>
-	<footer class="flex my-8 pl-8 md:p-16 md:px-32 xl:pl-64 xl:mt-20">
+	<footer class="flex mt-16 mb-8 pl-8 md:p-16 md:px-32 xl:pl-64 xl:mt-20">
 
 		<a class="mr-4" href="mailto: wiu753@gmail.com" title="Send me an email at wiu753@gmail.com">
 			<svg class="w-8 h-8 sm:w-10 sm:h-10 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">

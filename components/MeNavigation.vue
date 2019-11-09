@@ -9,6 +9,5 @@
 <style scoped>
   a.nuxt-link-active {
     color: white;
-    text-decoration: underline;
   }
 </style>

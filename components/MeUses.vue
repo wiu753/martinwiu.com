@@ -2,7 +2,7 @@
 	<li>
 		<div>
 			<h3 class="pb-2">
-				<a class="underline hover:text-gray-500" :href="link">{{ title }}</a>
+				<a class="underline" :href="link">{{ title }}</a>
 			</h3>
 		</div>
 	</li>
@@ -16,3 +16,9 @@ export default {
 	}
 }
 </script>
+
+<style scoped>
+	a:hover {
+		color: rgba(33,141,150,1);
+	}
+</style>

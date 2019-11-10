@@ -4,10 +4,9 @@
       <h1 class="text-3xl mb-4 font-semibold">Who am I?</h1>
       <p class="md:text-xl">
 				I'm Martin, a {{ age }}-year old Norwegian web developer.
-				I have a bachelor's degree in information systems and a
-				<a class="me-underline" href="https://www.credential.net/ur7cv6bc">front-end tech degree</a>
-        from treehouse. Got introduced to coding {{ introducedToCoding }} years back but started
-				actively {{ daysCoded }} days ago. Currently employed at
+				I have a bachelor's degree in information systems and, a tech degree
+        from teamtreehouse. Got introduced to coding {{ introducedToCoding }} years back but started
+				actively {{ monthsCoded }} months ago. Currently employed at
 				<a class="me-underline" href="https://www.muniolms.com">Munio</a> as a web developer.
       </p>
 			<p class="mt-4 md:text-xl">
@@ -38,9 +37,21 @@ export default {
 			const startedCodingDate = '01/01/2019'
 			const today = new Date()
 			const startedCoding = new Date(startedCodingDate)
-			const res = Math.abs(today - startedCoding) / 1000
-			const days = Math.floor(res / 86400)
-			return days
+			const miliseconds = today - startedCoding
+			const milisecondsPerDay = 86400000
+			const days = miliseconds/milisecondsPerDay
+			const daysRounded = Math.floor(days)
+			return daysRounded
+		},
+		monthsCoded () {
+			const startedCodingDate = '01/01/2019'
+			const today = new Date()
+			const startedCoding = new Date(startedCodingDate)
+			const miliseconds = today - startedCoding
+			const milisecondsPerMonth = 2592000000
+			const months = miliseconds/milisecondsPerMonth
+			const monthsRounded = Math.floor(months)
+			return monthsRounded
 		},
 		introducedToCoding () {
 			const dateIntroducedToCoding = '01/06/2015'

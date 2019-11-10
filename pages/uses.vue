@@ -6,7 +6,7 @@
 
 			<me-uses link="https://www.apple.com/shop/buy-mac/macbook-pro/15-inch-space-gray-2.6ghz-6-core-processor-with-turbo-boost-up-to-4.5ghz-256gb#">
 				<template v-slot:icon>
-						<svg class="w-8 mr-4 lg:w-12 lg:mr-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M18 16h2v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-1h2V4c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12zM4 4v9h12V4H4zm4 11v1h4v-1H8z"/></svg>
+						<svg class="w-12 mr-4 lg:w-12 lg:mr-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M18 16h2v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-1h2V4c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12zM4 4v9h12V4H4zm4 11v1h4v-1H8z"/></svg>
 				</template>
 				<template v-slot:title>
 					<p> MacBook Pro 15 (2019) <span class="text-gray-600 text-sm"> 256GB, i7 2.6GHz, 16GB RAM</span></p>

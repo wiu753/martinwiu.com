@@ -1,15 +1,25 @@
 <template>
 	<div class="px-8 md:px-32 xl:pl-64 md:max-w-3xl xl:max-w-5xl">
 			<h1 class="text-3xl mb-4 font-semibold">Projects</h1>
-      <h2 class="text-xl mb-4 font-semibold sm:text-2xl text-gray-700">Bigger</h2>
-      <!-- <p class="md:text-xl pb-2">Such empty, much wow.</p> -->
-			<ul v-for="(project, index) in bigProjcets" :key="'big' + index" class="list-disc ml-5 md:text-xl">
-				<me-project :title="project.title" :link="project.link" :description="project.description" :projectSize="project.size" />
-			</ul>
-      <h2 class="text-xl mb-4 mt-4 font-semibold sm:text-2xl text-gray-700">Smaller</h2>
-			<ul v-for="(project, index) in smallProjects" :key="'small' +index" class="list-disc ml-5 md:text-xl">
-				<me-project :title="project.title" :link="project.link" :description="project.description" />
-			</ul>
+
+      <me-project class="mb-4 md:text-xl lg:mb-5" link="https://github.com/wiu753/martinwiulsrod.me" :badges="['Nuxt.js', 'Tailwindcss']">
+        <template v-slot:title>This website</template>
+
+        <template v-slot:description>
+          My website where you can read a little about me and what I do. Also used for testing out new technologies and other fun stuff.
+        </template>
+      </me-project>
+
+      <div class="bg-white border border-gray-300 rounded-lg p-2 text-gray-700 md:p-4">
+        <h1 class="text-xl mb-2 text-black">Small projects</h1>
+        <ul>
+          <li v-for="(project, index) in smallProjects" :key="index" class="py-1 md:text-xl">
+            <!-- <span class="text-gray-500">-</span> -->
+            <a :href="project.link" class="underline me-transition hover:text-black">{{ project.title }}</a>
+          </li>
+        </ul>
+      </div>
+
 	</div>
 </template>
 

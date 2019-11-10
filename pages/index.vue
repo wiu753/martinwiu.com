@@ -2,17 +2,14 @@
   <div class=" px-8 md:px-32 xl:pl-64 md:max-w-3xl xl:max-w-5xl">
     <article>
       <h1 class="text-3xl mb-4 font-semibold">Who am I?</h1>
-      <p class="md:text-xl">
-				I'm Martin, a {{ age }}-year old Norwegian web developer.
-				I have a bachelor's degree in information systems and, a tech degree
-        from teamtreehouse. Got introduced to coding {{ introducedToCoding }} years back but started
-				actively {{ monthsCoded }} months ago. Currently employed at
-				<a class="me-underline" href="https://www.muniolms.com">Munio</a> as a web developer.
-      </p>
-			<p class="mt-4 md:text-xl">
-				My favorite frameworks are <a href="https://vuejs.org/" class="me-underline">Vue</a> and <a href="https://tailwindcss.com/" class="me-underline">Tailwind</a>.
-				I also have experience with HTML, CSS, JavaScript, PHP, Laravel, React, SASS and MySQL.
+			<p class="md:text-xl mb-4">My name is Martin Wiulsrød, I’m a {{ age }}-year old Norwegian web developer.
+				I have a bachelor’s degree in information systems and a tech degree in front-end development.
 			</p>
+			<p class=" mb-4 md:text-xl">
+				I aspire to make other peoples life easier. I love to teach and be taught.
+				I’m a minimalist and a dog lover. The technology of my choice is Vue.js.
+			</p>
+			<p class="md:text-xl">If you want to know more send me an e-mail at <a class="me-underline" href="mailto: wiu753@gmail.com">wiu753@gmail.com</a>.</p>
     </article>
   </div>
 </template>
@@ -32,16 +29,6 @@ export default {
 			}
 
 			return age
-		},
-		daysCoded () {
-			const startedCodingDate = '01/01/2019'
-			const today = new Date()
-			const startedCoding = new Date(startedCodingDate)
-			const miliseconds = today - startedCoding
-			const milisecondsPerDay = 86400000
-			const days = miliseconds/milisecondsPerDay
-			const daysRounded = Math.floor(days)
-			return daysRounded
 		},
 		monthsCoded () {
 			const startedCodingDate = '01/01/2019'

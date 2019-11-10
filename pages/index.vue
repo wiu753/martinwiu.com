@@ -16,6 +16,9 @@
 
 <script>
 export default {
+	transition (to, from) {
+		return 'slide-right'
+  },
 	computed: {
 		age () {
 			const birthday = '06/21/1995'

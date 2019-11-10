@@ -14,6 +14,9 @@
 import MeProject from '@/components/MeProject'
 
 export default {
+transition (to, from) {
+		return 'slide-left'
+  },
   components: {
     MeProject
   }

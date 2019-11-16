@@ -103,12 +103,6 @@
 import MeUses from '@/components/MeUses'
 
 export default {
-	transition (to, from) {
-		if(from.path === '/') {
-			return 'slide-left'
-		}
-		return 'slide-right'
-  },
 	components: {
     MeUses
 	}

@@ -7,7 +7,7 @@
 			</p>
 			<p class=" mb-4 md:text-xl">
 				I aspire to make other peoples life easier. I love to teach and be taught.
-				I’m a minimalist and a dog lover. The technology of my choice is Vue.js.
+				I’m a minimalist and a dog lover. I really like Vue.js.
 			</p>
 			<p class="md:text-xl">If you want to know more send me an e-mail at <a class="me-underline" href="mailto: wiu753@gmail.com">wiu753@gmail.com</a>.</p>
     </article>

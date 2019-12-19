@@ -4,9 +4,7 @@ const mutations = {}
 
 const actions = {}
 
-const getters = {
-  getTheme: state => state.theme
-}
+const getters = {}
 
 export default {
   state,

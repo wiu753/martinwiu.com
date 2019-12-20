@@ -5,7 +5,7 @@
 				class="rounded-lg p-2 me-transition md:p-4"
 				:class="!underDevelopment ? projectCard : projectCardDev"
 			>
-				<h1 class="text-xl mb-2"><slot name="title"></slot></h1>
+				<h1 class="text-xl xl:text-2xl mb-2"><slot name="title"></slot></h1>
 				<p class="description hover:text-black" :class="!underDevelopment ? description : descriptionDev"><slot name="description"></slot></p>
 				<div class="flex text-sm flex-wrap mt-3">
 					<span v-if="underDevelopment" class="badge bg-red-200 border border-gray-300 rounded-full px-2 mr-1 mt-1 text-black">

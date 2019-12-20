@@ -119,7 +119,7 @@ export default {
 			return 'slide-left'
 		}
 
-		if (from.path === '/projects') {
+		if (from.path === '/projects' || from.path === '/knowledge') {
 			return 'slide-right'
 		}
 	},

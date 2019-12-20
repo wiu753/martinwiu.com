@@ -22,8 +22,16 @@
 import MeProject from '@/components/MeProject'
 
 export default {
-  transition (to, from) {
-    return 'slide-left'
+	transition (to, from) {
+    if (!from) return
+
+		if (from.path === '/' || from.path === '/uses') {
+			return 'slide-left'
+		}
+
+		if (from.path === '/knowledge') {
+			return 'slide-right'
+		}
 	},
   components: {
     MeProject

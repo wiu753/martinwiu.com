@@ -24,7 +24,7 @@ export default {
 			const birthday = '06/21/1995'
 			const today = new Date()
 			const birthDate = new Date(birthday)
-			const age = today.getFullYear() - birthDate.getFullYear()
+			let age = today.getFullYear() - birthDate.getFullYear()
 			const m = today.getMonth() - birthDate.getMonth()
 
 			if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {

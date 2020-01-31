@@ -3,7 +3,7 @@
     <article>
       <h1 class="text-3xl mb-4 font-semibold">Who am I?</h1>
 			<p class="md:text-xl mb-4">My name is Martin Wiulsrød, I’m a {{ age }}-year old Norwegian web developer.
-				I have a bachelor’s degree in information systems and a tech degree in front-end development.
+				I have a bachelor’s degree in information systems and a tech degree in front end web development.
 			</p>
 			<p class=" mb-4 md:text-xl">
 				I aspire to make other peoples life easier. I love to teach and be taught.
@@ -32,29 +32,6 @@ export default {
 			}
 
 			return age
-		},
-		monthsCoded () {
-			const startedCodingDate = '01/01/2019'
-			const today = new Date()
-			const startedCoding = new Date(startedCodingDate)
-			const miliseconds = today - startedCoding
-			const milisecondsPerMonth = 2592000000
-			const months = miliseconds/milisecondsPerMonth
-			const monthsRounded = Math.floor(months)
-			return monthsRounded
-		},
-		introducedToCoding () {
-			const dateIntroducedToCoding = '01/06/2015'
-			const today = new Date()
-			const introducedToCoding = new Date(dateIntroducedToCoding)
-			const yearsSinceIntroduced = today.getFullYear() - introducedToCoding.getFullYear()
-			const m = today.getMonth() - introducedToCoding.getMonth()
-
-			if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-				yearsSinceIntroduced--
-			}
-
-			return yearsSinceIntroduced
 		}
 	}
 }

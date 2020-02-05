@@ -1,7 +1,6 @@
 <template>
 	<div class="px-8 md:px-32 xl:pl-64 md:max-w-3xl xl:max-w-5xl">
 			<h1 class="text-3xl mb-2 font-semibold">Uses</h1>
-			<p class="mb-6 lg:text-lg">These are the essential hardware and software I use daily.</p>
 
 			<h2 class="text-xl mb-4 sm:text-2xl text-gray-700">Workstation</h2>
 

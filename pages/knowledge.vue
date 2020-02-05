@@ -14,7 +14,7 @@
             <div class="mr-2 flex justify-center mb-2"><svg class="w-8 lg:w-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M948.6 367.7v162.1l34.1 34.1-71.1 74.1-72-71.9 49.3-44.9v-128C679.5 479.6 612.4 506.4 566 527.4s-79.9 20.8-125.9 3.5c-46-17.4-265.2-97.3-374.1-149.4-72.6-34.8-77.3-56.8 1.2-86.3 102.5-38.9 271.9-101.3 361.7-135.3 53.2-21.5 81.3-33.2 130.1-8.7 87.1 36 286.2 110.7 385.2 151.6 86.3 37.5 28.4 49.8 4.4 64.9zM576.1 591.6c50.6-20.9 118.9-55.4 193.3-87.3v256S673.2 862.7 504 862.7c-182.2 0-280.6-102.4-280.6-102.4v-239c57.4 23.4 121.9 43.5 200 70.3 48 17.1 109.1 23 152.7 0z"/></svg></div>
             <h3 class="text-lg xl:text-2xl text-center md:ml-2">University of South-Eastern Norway</h3>
           </div>
-          <p class="lg:text-lg mt-2 ml-2 sm:text-center md:text-left md:ml-12 lg:ml-16 text-gray-600">Bachelors degree in information systems. Thesis was about the role of knowledge management and artificial intelligence.</p>
+          <p class="lg:text-lg mt-2 ml-2 sm:text-center md:text-left md:ml-12 lg:ml-16 text-gray-600">Bachelors degree in information systems. Thesis was about knowledge management and the role artificial intelligence.</p>
           <div class="flex flex-row flex-wrap justify-center md:justify-start md:ml-12 lg:ml-16 lg:ml-16 ml-2 mt-4">
             <span v-for="(skill, index) in usnSkills" :key="index" class="text-xs lg:text-sm bg-gray-100 text-gray-800 border border-gray-300 px-2 mr-1 mb-2 rounded-full">{{ skill }}</span>
           </div>

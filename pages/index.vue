@@ -9,7 +9,6 @@
 				I aspire to make other peoples life easier. I love to teach and be taught.
 				I’m a minimalist and a dog lover. My favorite frameworks are Vue.js, Tailwindcss and Laravel.
 			</p>
-			<p class="md:text-xl">If you want to know more send me an e-mail at <a class="me-underline" href="mailto: wiu753@gmail.com">wiu753@gmail.com</a>.</p>
     </article>
   </div>
 </template>

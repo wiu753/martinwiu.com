@@ -121,7 +121,7 @@ export default {
 
   methods: {
     setExpandedId(title) {
-      this.expandedTitle = title
+      title === this.expandedTitle ? this.expandedTitle = '' : this.expandedTitle = title
     }
   },
 }

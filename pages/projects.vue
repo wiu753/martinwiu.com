@@ -1,8 +1,6 @@
 <template>
 	<div class="px-8 md:px-32 xl:pl-64 md:max-w-3xl xl:max-w-5xl">
         <h1 class="text-3xl mb-2 font-semibold">Projects</h1>
-        <p class="mb-6 lg:text-lg">Here is a collection of the bigger projects that I have created. You can
-        find all my other stuff on my <a class="me-underline" href="https://github.com/wiu753">GitHub</a> page.</p>
 
         <me-project link="https://www.typingmonster.com/" :badges="['Vue.js', 'Tailwindcss', 'Laravel', 'MySql']" underDevelopment>
         <template v-slot:title>
@@ -16,7 +14,7 @@
       <me-project link="https://github.com/wiu753/martinwiulsrod.me" :badges="['Nuxt.js', 'Tailwindcss']">
         <template v-slot:title>This website</template>
         <template v-slot:description>
-          Read about me and what I do. Used for testing new technologies.
+          Read about me and what I do.
         </template>
       </me-project>
 	</div>

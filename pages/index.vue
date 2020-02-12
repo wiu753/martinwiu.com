@@ -7,7 +7,7 @@
 			</p>
 			<p class=" mb-4 md:text-xl">
 				I aspire to make other peoples life easier. I love to teach and be taught.
-				I’m a minimalist and a dog lover. My favorite frameworks are Vue.js, Tailwindcss and Laravel.
+				I’m a minimalist and a dog lover. My favorite technologies are Vue.js, Tailwindcss and Laravel.
 			</p>
     </article>
   </div>

@@ -21,6 +21,6 @@ export default {
         title: { type: String, required: true },
         description: String,
         link: String,
-    }
+    },
 }
 </script>

@@ -12,9 +12,16 @@
       </me-project>
 
       <me-project link="https://github.com/wiu753/martinwiulsrod.me" :badges="['Nuxt.js', 'Tailwindcss']">
-        <template v-slot:title>This website</template>
+        <template v-slot:title>This Website</template>
         <template v-slot:description>
           Read about me and what I do.
+        </template>
+      </me-project>
+
+      <me-project link="https://github.com/wiu753?tab=repositories">
+        <template v-slot:title>Small Projects</template>
+        <template v-slot:description>
+          You can find all my mini projects on GitHub.
         </template>
       </me-project>
 	</div>

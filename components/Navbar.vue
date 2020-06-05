@@ -1,6 +1,6 @@
 <template>
-  <nav class="px-4 bg-white shadow sm:px-0 sm:shadow-none sm:mx-16">
-    <div class="max-w-6xl sm:border-b sm:mt-8 lg:mt-24 lg:mx-auto">
+  <nav class="px-4 shadow sm:px-0 sm:shadow-none sm:mx-16">
+    <div class="max-w-4xl sm:border-b sm:mt-8 lg:mt-24 lg:mx-auto">
       <div class="flex items-center justify-between h-16 sm:justify-start">
         <!-- Profile image. -->
         <img
@@ -63,10 +63,10 @@
           About</nuxt-link
         >
         <nuxt-link
-          to="/posts"
+          to="/blog"
           class="ml-4 transition border-b-2 border-transparent desktop hover:text-gray-500 focus:outline-none focus:text-gray-500 focus:border-gray-300"
         >
-          Posts
+          Blog
         </nuxt-link>
       </div>
     </div>
@@ -82,10 +82,10 @@
           About
         </nuxt-link>
         <nuxt-link
-          to="/posts"
+          to="/blog"
           class="block py-2 pl-3 pr-4 text-base text-gray-600 ease-in-out border-l-4 border-transparent mobile hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
         >
-          Posts
+          Blog
         </nuxt-link>
       </div>
     </div>

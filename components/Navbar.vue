@@ -1,7 +1,7 @@
 <template>
-  <nav class="px-4 shadow sm:px-0 sm:shadow-none sm:mx-16">
-    <div class="max-w-4xl sm:border-b sm:mt-8 lg:mt-24 lg:mx-auto">
-      <div class="flex items-center justify-between h-16 sm:justify-start">
+  <nav class="max-w-4xl px-4 shadow sm:px-0 sm:shadow-none sm:mx-16 lg:mx-auto">
+    <div class="sm:mt-8 lg:mt-24">
+      <div class="flex items-center justify-between sm:justify-start">
         <!-- Profile image. -->
         <img
           class="block w-auto h-10 rounded-full sm:h-24 lg:h-32"
@@ -11,10 +11,10 @@
 
         <div class="flex sm:ml-8 sm:text-3xl">Martin Wiu</div>
 
-        <div class="flex items-center sm:hidden">
-          <!-- Mobile menu button. -->
+        <!-- Mobile menu button. -->
+        <div class="flex items-center py-4 sm:hidden">
           <button
-            class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
+            class="inline-flex items-center justify-center text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
             aria-label="Main menu"
             aria-expanded="false"
             @click="toggleMobileMenu"
@@ -52,9 +52,12 @@
           </button>
         </div>
       </div>
+    </div>
 
-      <!-- Desktop menu. -->
-      <div class="flex hidden mt-16 text-xl lg:mt-24 desktop sm:block">
+    <!-- Desktop menu. -->
+    <div class="justify-between hidden sm:flex lg:mt-24 sm:border-b">
+      <!-- Pages. -->
+      <div class="text-xl desktop">
         <nuxt-link
           to="/"
           class="transition border-b-2 border-transparent desktop hover:text-gray-500 focus:outline-none focus:text-gray-500 focus:border-gray-300"

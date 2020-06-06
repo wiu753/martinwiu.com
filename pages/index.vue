@@ -3,10 +3,10 @@
     <p>
       Hey there! My name is Martin Wiu, I'm a Norwegian web developer studying
       software engineering. In my free time I'm either lifting weights or
-      working on freelance projects. I also like reading books about finance and
+      working on a coding project. I also like reading books about finance and
       self-improvement.
     </p>
-    <p class="mt-6">
+    <p class="mt-7">
       I have work experience with Vue, Laravel and MySQL but I'm transitioning
       into Node, Express and MongoDB. If you want to know some more details
       about me I have a document that I frequently update
@@ -16,9 +16,5 @@
         >here</a
       >.
     </p>
-    <div class="mt-6">
-      <q>Whether you think you can or think you can't, you're right.</q>
-      <cite>- Henry Ford</cite>
-    </div>
   </main>
 </template>

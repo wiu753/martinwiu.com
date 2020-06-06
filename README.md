@@ -1,6 +1,7 @@
-# martinwiu.com
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c7bd3c8-e1a7-470b-97c7-d7b16a43040f/deploy-status)](https://app.netlify.com/sites/laughing-mccarthy-f1d982/deploys)
+# Hello!
 
-> My personal website
+This is my personal website.
 
 ## Build Setup
 
@@ -18,5 +19,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

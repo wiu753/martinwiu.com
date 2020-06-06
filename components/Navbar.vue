@@ -55,7 +55,7 @@
     </div>
 
     <!-- Desktop menu. -->
-    <div class="justify-between hidden sm:flex lg:mt-24 sm:border-b">
+    <div class="justify-between hidden sm:mt-8 sm:flex lg:mt-24 sm:border-b">
       <!-- Pages. -->
       <div class="text-xl desktop">
         <nuxt-link

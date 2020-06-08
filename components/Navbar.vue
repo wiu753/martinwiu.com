@@ -14,7 +14,7 @@
         <!-- Mobile menu button. -->
         <div class="flex items-center py-4 sm:hidden">
           <button
-            class="inline-flex items-center justify-center text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500"
+            class="inline-flex items-center justify-center text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:bg-gray-100 focus:text-gray-500"
             aria-label="Main menu"
             aria-expanded="false"
             @click="toggleMobileMenu"
@@ -60,14 +60,14 @@
       <div class="text-xl desktop">
         <nuxt-link
           to="/"
-          class="transition border-b-2 border-transparent desktop hover:text-gray-500 focus:outline-none focus:text-gray-500 focus:border-gray-300"
+          class="border-b-2 border-transparent desktop hover:text-gray-500 focus:text-gray-500 focus:border-gray-300"
           exact
         >
           About</nuxt-link
         >
         <nuxt-link
           to="/blog"
-          class="ml-4 transition border-b-2 border-transparent desktop hover:text-gray-500 focus:outline-none focus:text-gray-500 focus:border-gray-300"
+          class="ml-4 border-b-2 border-transparent desktop hover:text-gray-500 focus:text-gray-500 focus:border-gray-300"
         >
           Blog
         </nuxt-link>
@@ -79,14 +79,14 @@
       <div class="pt-2 pb-3">
         <nuxt-link
           to="/"
-          class="block py-2 pl-3 pr-4 text-base text-gray-600 ease-in-out border-l-4 border-transparent mobile hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
+          class="block py-2 pl-3 pr-4 text-base text-gray-600 border-l-4 border-transparent mobile hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
           exact
         >
           About
         </nuxt-link>
         <nuxt-link
           to="/blog"
-          class="block py-2 pl-3 pr-4 text-base text-gray-600 ease-in-out border-l-4 border-transparent mobile hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:outline-none focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
+          class="block py-2 pl-3 pr-4 text-base text-gray-600 border-l-4 border-transparent mobile hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
         >
           Blog
         </nuxt-link>
@@ -122,7 +122,6 @@ a.mobile.nuxt-link-active {
 
 a.mobile.nuxt-link-active:focus,
 a.mobile.nuxt-link-active:hover {
-  @apply outline-none;
   @apply bg-gray-200;
   @apply border-black;
 }

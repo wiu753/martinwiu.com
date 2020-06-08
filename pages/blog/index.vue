@@ -4,7 +4,7 @@
       <nuxt-link :to="'/blog/' + post.slug">
         <h1 class="text-2xl">{{ post.title }}</h1>
         <span class="text-sm text-gray-400"
-          >{{ post.datePublished }} - {{ post.minutesToRead }} min to read</span
+          >{{ post.datePublished }} - {{ post.minutesToRead }} min read</span
         >
       </nuxt-link>
       <p class="mt-2">{{ post.description }}</p>

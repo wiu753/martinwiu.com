@@ -2,7 +2,7 @@
   <blog-post>
     <template v-slot:title>{{ post.title }}</template>
     <template v-slot:info>
-      <span>{{ post.datePublished }} - {{ post.minutesToRead }} min read</span>
+      {{ post.datePublished }} - {{ post.minutesToRead }} min read
     </template>
     <template v-slot:body>
       <p>

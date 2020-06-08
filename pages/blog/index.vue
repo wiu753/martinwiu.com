@@ -12,7 +12,7 @@
 
     <div class="flex justify-between text-2xl">
       <button
-        class="p-4 mr-4 border-transparent start desktop hover:text-gray-500 focus:text-gray-500 focus:border-gray-300"
+        class="p-4 mr-4 border-transparent start hover:text-gray-500 focus:text-gray-500 focus:border-gray-300"
         :class="index === 5 ? 'invisible' : ''"
         @click="paginate(-5)"
       >
@@ -20,7 +20,7 @@
       </button>
 
       <button
-        class="p-4 border-transparent desktop hover:text-gray-500 focus:text-gray-500 focus:border-gray-300"
+        class="p-4 border-transparent hover:text-gray-500 focus:text-gray-500 focus:border-gray-300"
         :class="index >= amountOfPosts ? 'invisible' : ''"
         @click="paginate(5)"
       >

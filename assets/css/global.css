@@ -1,3 +1,4 @@
 html {
   @apply font-mono;
+  @apply antialiased;
 }

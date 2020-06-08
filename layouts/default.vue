@@ -1,5 +1,5 @@
 <template>
-  <div class="antialiased">
+  <div>
     <Navbar />
     <nuxt />
   </div>

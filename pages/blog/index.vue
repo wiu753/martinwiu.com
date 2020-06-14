@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-4xl px-4 mt-12 sm:px-0 sm:mx-16 lg:mx-auto">
+  <main>
     <div v-for="post in blog" :key="post.slug" class="mb-10">
       <nuxt-link :to="'/blog/' + post.slug">
         <h1 class="text-2xl">{{ post.title }}</h1>
@@ -27,7 +27,7 @@
         &gt;
       </button>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>

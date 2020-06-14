@@ -1,12 +1,12 @@
 <template>
-  <main class="max-w-4xl px-4 mt-12 sm:px-0 sm:mx-16 lg:mx-auto">
+  <main>
     <p class="mb-6">
-      Hey there! My name is Martin Wiu, I'm a Norwegian web developer studying
-      software engineering. In my free time I'm either lifting weights or
-      working on a coding project. I also like reading books about finance and
+      Hey there! My name is Martin Wiu, I'm a {{ age }} years old Norwegian web
+      developer studying software engineering. I'm a minimalist, dog lover and
+      life long learner. I like to read books about finance, productivity and
       self-improvement.
     </p>
-    <p>
+    <p class="mt-6">
       I have work experience with Vue, Laravel and MySQL but I'm transitioning
       into Node, Express and MongoDB. If you want to know some more details
       about me I have a document that I frequently update
@@ -18,3 +18,13 @@
     </p>
   </main>
 </template>
+
+<script>
+export default {
+  computed: {
+    age() {
+      return this.$store.getters.age
+    }
+  }
+}
+</script>

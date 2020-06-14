@@ -1,5 +1,5 @@
 <template>
-  <nav class="max-w-4xl px-4 shadow sm:px-0 sm:shadow-none sm:mx-16 lg:mx-auto">
+  <nav>
     <div class="sm:mt-8 lg:mt-24">
       <div class="flex items-center justify-between sm:justify-start">
         <!-- Profile image. -->

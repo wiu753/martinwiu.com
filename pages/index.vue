@@ -13,6 +13,7 @@
       <a
         class="underline"
         href="https://www.notion.so/Info-Tech-Overview-533cdb1e8fe74ea3bece9fd564bfbee6"
+        rel="external"
         >here</a
       >.
     </p>

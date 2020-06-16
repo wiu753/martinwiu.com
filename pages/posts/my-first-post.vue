@@ -1,5 +1,5 @@
 <template>
-  <blog-post>
+  <post-template>
     <template v-slot:title>{{ post.title }}</template>
     <template v-slot:info>
       {{ post.datePublished }} - {{ post.minutesToRead }} min read
@@ -30,27 +30,27 @@
         hamburger. Tenderloin beef ribs rump jerky.
       </p>
     </template>
-  </blog-post>
+  </post-template>
 </template>
 
 <script>
-import BlogPost from '@/components/BlogPost'
-import blog from '@/blog'
+import PostTemplate from '@/components/Post'
+import posts from '@/posts.js'
 
 export default {
   components: {
-    BlogPost
+    PostTemplate
   },
 
   data() {
     return {
-      slug: 'my-first-blog-post'
+      slug: 'my-first-post'
     }
   },
 
   computed: {
     post() {
-      return blog.find((obj) => obj.slug === this.slug)
+      return posts.find((obj) => obj.slug === this.slug)
     }
   }
 }

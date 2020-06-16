@@ -1,6 +1,6 @@
 export default [
   {
-    slug: 'my-first-blog-post',
+    slug: 'my-first-post',
     title: 'Testing This Out',
     datePublished: 'Jun 21, 2020',
     minutesToRead: 1,

@@ -1,7 +1,7 @@
 <template>
   <main>
-    <div v-for="post in blog" :key="post.slug" class="mb-10">
-      <nuxt-link :to="'/blog/' + post.slug">
+    <div v-for="post in posts" :key="post.slug" class="mb-10">
+      <nuxt-link :to="'/posts/' + post.slug">
         <h1 class="text-2xl">{{ post.title }}</h1>
         <span class="text-sm text-gray-400"
           >{{ post.datePublished }} - {{ post.minutesToRead }} min read</span
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import blog from '@/blog'
+import posts from '@/posts'
 
 export default {
   data() {
@@ -41,17 +41,17 @@ export default {
   },
 
   computed: {
-    blog() {
+    posts() {
       const arr = []
-      for (let i = this.index - 5; i < blog.length; i++) {
+      for (let i = this.index - 5; i < posts.length; i++) {
         if (i < this.index) {
-          arr.push(blog[i])
+          arr.push(posts[i])
         }
       }
       return arr
     },
     amountOfPosts() {
-      return blog.length
+      return posts.length
     }
   },
 

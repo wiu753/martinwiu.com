@@ -66,10 +66,10 @@
           About</nuxt-link
         >
         <nuxt-link
-          to="/blog"
+          to="/posts"
           class="ml-4 border-b-2 border-transparent desktop hover:text-gray-500 focus:text-gray-500 focus:border-gray-300"
         >
-          Blog
+          Posts
         </nuxt-link>
       </div>
     </div>
@@ -85,10 +85,10 @@
           About
         </nuxt-link>
         <nuxt-link
-          to="/blog"
+          to="/posts"
           class="block py-2 pl-3 pr-4 text-base text-gray-600 border-l-4 border-transparent mobile hover:text-gray-800 hover:bg-gray-50 hover:border-gray-300 focus:text-gray-800 focus:bg-gray-50 focus:border-gray-300"
         >
-          Blog
+          Posts
         </nuxt-link>
       </div>
     </div>

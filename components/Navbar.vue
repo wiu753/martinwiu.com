@@ -9,7 +9,9 @@
           alt="Picture of Martin Wiu"
         />
 
-        <div class="flex sm:ml-8 sm:text-3xl">Martin Wiu</div>
+        <div class="flex sm:ml-8 sm:text-3xl">
+          Martin Wiu
+        </div>
 
         <!-- Mobile menu button. -->
         <div class="flex items-center py-4 sm:hidden">

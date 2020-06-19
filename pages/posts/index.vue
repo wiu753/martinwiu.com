@@ -2,7 +2,9 @@
   <main>
     <div v-for="post in posts" :key="post.slug" class="mb-10">
       <nuxt-link :to="'/posts/' + post.slug">
-        <h1 class="text-2xl">{{ post.title }}</h1>
+        <h1 class="text-2xl hover:text-gray-500 focus:text-gray-500">
+          {{ post.title }}
+        </h1>
         <span class="text-sm text-gray-400"
           >{{ post.datePublished }} - {{ post.minutesToRead }} min read</span
         >

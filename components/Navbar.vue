@@ -16,7 +16,7 @@
         <!-- Mobile menu button. -->
         <div class="flex items-center py-4 sm:hidden">
           <button
-            class="inline-flex items-center justify-center text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:bg-gray-100 focus:text-gray-500"
+            class="inline-flex items-center justify-center text-gray-400 ease-in-out rounded-md focus:outline-none"
             aria-label="Main menu"
             aria-expanded="false"
             @click="toggleMobileMenu"

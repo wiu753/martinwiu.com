@@ -17,7 +17,12 @@ export default {
         content: process.env.npm_package_description || ''
       },
       { name: 'msapplication-TileColor', content: '#2b5797' },
-      { name: 'theme-color', content: '#ffffff' }
+      { name: 'theme-color', content: '#ffffff' },
+      {
+        name: 'keywords',
+        content:
+          'Martin Wiulsrød, Martin, Wiulsrød, JavaScript, Software Engineer, Web Development'
+      }
     ],
     link: [
       {

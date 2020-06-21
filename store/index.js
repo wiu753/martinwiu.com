@@ -14,7 +14,7 @@ const getters = {
     return age
   },
   moo: () => {
-    return `________________________________________
+    return `
     < mooooooooooooooooooooooooooooooooooooo >
      ----------------------------------------
             \\   ^__^

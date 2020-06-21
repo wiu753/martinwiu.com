@@ -34,7 +34,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+/* Warning, this is not scoped */
 .slide-left-enter-active,
 .slide-left-leave-active,
 .slide-right-enter-active,

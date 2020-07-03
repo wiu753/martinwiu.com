@@ -1,6 +1,7 @@
 <template>
   <main>
-    <div v-for="post in posts" :key="post.slug" class="mb-10">
+    <p>In the works.</p>
+    <!-- <div v-for="post in posts" :key="post.slug" class="mb-10">
       <nuxt-link
         class="block text-2xl focus:text-gray-500 hover:text-gray-500"
         :to="'/posts/' + post.slug"
@@ -29,7 +30,7 @@
       >
         &gt;
       </button>
-    </div>
+    </div>  -->
   </main>
 </template>
 

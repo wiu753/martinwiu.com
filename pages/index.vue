@@ -10,12 +10,7 @@
       I write posts about different technologies, web development, software
       engineering and productivity. If you want to know some more details about
       me I have a document that I frequently update
-      <a
-        class="underline"
-        href="https://www.notion.so/Info-Tech-Overview-533cdb1e8fe74ea3bece9fd564bfbee6"
-        rel="external"
-        >here</a
-      >.
+      <a class="underline" href="/me">here</a>.
     </p>
   </main>
 </template>
@@ -33,28 +28,3 @@ export default {
   }
 }
 </script>
-
-<style>
-/* Warning, this is not scoped */
-.slide-left-enter-active,
-.slide-left-leave-active,
-.slide-right-enter-active,
-.slide-right-leave-active {
-  transition-duration: 0.2s;
-  transition-property: height, opacity, transform;
-  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
-  overflow: hidden;
-}
-
-.slide-left-enter,
-.slide-right-leave-active {
-  opacity: 0;
-  transform: translate(2em, 0);
-}
-
-.slide-left-leave-active,
-.slide-right-enter {
-  opacity: 0;
-  transform: translate(-2em, 0);
-}
-</style>

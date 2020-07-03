@@ -10,7 +10,7 @@
       I write posts about different technologies, web development, software
       engineering and productivity. If you want to know some more details about
       me I have a document that I frequently update
-      <a class="underline" href="/me">here</a>.
+      <nuxt-link class="underline" to="/me">here</nuxt-link>.
     </p>
   </main>
 </template>

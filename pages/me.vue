@@ -16,10 +16,20 @@
     <div class="mb-6">
       <h2 class="mb-2 text-lg font-semibold">Links</h2>
       <ul>
-        <li><a href="https://www.twitter.com/wiu753">Twitter</a></li>
-        <li><a href="https://www.github.com/wiu753">GitHub</a></li>
         <li>
-          <a href="https://www.linkedin.com/in/martin-wiulsr%C3%B8d-3a1412161/"
+          <a href="https://www.twitter.com/wiu753" class="hover:underline"
+            >Twitter</a
+          >
+        </li>
+        <li>
+          <a href="https://www.github.com/wiu753" class="hover:underline"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/martin-wiulsr%C3%B8d-3a1412161/"
+            class="hover:underline"
             >LinkedIn</a
           >
         </li>
@@ -29,9 +39,10 @@
     <div class="mb-6">
       <h2 class="mb-2 text-lg font-semibold">Education</h2>
       <ul>
-        <li>Frontend tech Degree at Treehouse</li>
+        <li>Bachelors degree in Computer Science (current)</li>
+
         <li>
-          Bachelors degree in information systems and IT-management
+          Bachelors degree in Information Systems and IT-management
         </li>
       </ul>
     </div>
@@ -44,6 +55,24 @@
         </li>
         <li>
           Logistics staff at Sensonor AS
+        </li>
+      </ul>
+    </div>
+
+    <div class="mb-6">
+      <h2 class="mb-2 text-lg font-semibold">Certifications</h2>
+      <ul>
+        <li>
+          <a href="https://www.credential.net/ur7cv6bc" class="hover:underline"
+            >Frontend tech Degree at Treehouse</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.freecodecamp.org/certification/wiu753/javascript-algorithms-and-data-structures"
+            class="hover:underline"
+            >JavaScript Algorithms and Data Structures</a
+          >
         </li>
       </ul>
     </div>

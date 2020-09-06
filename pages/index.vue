@@ -2,15 +2,30 @@
   <main>
     <p class="mb-6">
       Hey there! My name is Martin Wiu, I'm a {{ age }} year old Norwegian web
-      developer studying software engineering. I'm a minimalist, dog lover and
-      life long learner. I like to read books about finance, productivity and
-      self-improvement.
+      developer studying software engineering. I have a passion for teaching,
+      and hope to become a computer science lecturer when I get older. For now I
+      want to focus my energy towards making the world and the web a better
+      place.
     </p>
-    <p class="mt">
-      I write posts about different technologies, web development, software
-      engineering and productivity. If you want to know some more details about
-      me I have a document that I frequently update
-      <nuxt-link class="underline" to="/me">here</nuxt-link>.
+    <p class="mb-6">
+      I'm a minimalist, dog lover and life long learner. I'm fascinated by a lot
+      of things, and I love to read. My favorite topics are mathematics,
+      physics, biology, finance, psychology and technology.
+    </p>
+    <p>
+      In my quest to become a better teacher I have started to write
+      <nuxt-link class="underline" to="/posts">posts</nuxt-link> about things
+      that interest me. If you want to contact me you can send me an email at
+      <a class="underline" href="mailto:wiu753@gmail.com">wiu753@gmail.com</a>.
+      I'm also on
+      <a href="https://www.twitter.com/wiu753" class="underline">Twitter</a>,
+      <a href="https://www.github.com/wiu753" class="underline">GitHub</a>
+      and
+      <a
+        href="https://www.linkedin.com/in/martin-wiulsr%C3%B8d-3a1412161/"
+        class="underline"
+        >LinkedIn</a
+      >.
     </p>
   </main>
 </template>

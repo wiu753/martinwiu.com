@@ -3,9 +3,8 @@
     <p class="mb-6">
       Hey there! My name is Martin Wiu, I'm a {{ age }} year old Norwegian web
       developer studying software engineering. I have a passion for teaching,
-      and hope to become a computer science lecturer when I get older. For now I
-      want to focus my energy towards making the world and the web a better
-      place.
+      and hope to become lecturer when I get older. For now I want to focus my
+      energy towards making the world and the web a better place.
     </p>
     <p class="mb-6">
       I'm a minimalist, dog lover and life long learner. I'm fascinated by a lot
@@ -13,8 +12,8 @@
       physics, biology, finance, psychology and technology.
     </p>
     <p>
-      In my quest to become a better teacher I have started to write
-      <nuxt-link class="underline" to="/posts">posts</nuxt-link> about things
+      I also enjoy writing
+      <nuxt-link class="underline" to="/posts">posts</nuxt-link> about topics
       that interest me. If you want to contact me you can send me an email at
       <a class="underline" href="mailto:wiu753@gmail.com">wiu753@gmail.com</a>.
       I'm also on

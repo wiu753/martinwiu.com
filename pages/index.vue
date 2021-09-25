@@ -1,20 +1,20 @@
 <template>
   <main>
     <p class="mb-6">
-      Hey there! My name is Martin Wiu, I'm a {{ age }} year old Norwegian web
-      developer studying software engineering. I have a passion for teaching,
-      and hope to become lecturer when I get older. For now I want to focus my
-      energy towards making the world and the web a better place.
+      Hello! My name is Martin Wiu. I'm a {{ age }}-year-old Norwegian web
+      developer currently studying software engineering at the University of
+      South-Eastern Norway.
     </p>
     <p class="mb-6">
-      I'm a minimalist, dog lover and life long learner. I'm fascinated by a lot
-      of things, and I love to read. My favorite topics are mathematics,
-      physics, biology, finance, psychology and technology.
+      I'm a minimalist, lifelong learner, and dog lover. People usually describe
+      me as a pretty calm, collected, and accepting guy. I love to read books,
+      where some of my favorite topics are mental health, technology, and
+      finance. Occasionally I
+      <nuxt-link class="underline" to="/posts">write</nuxt-link> about the
+      subjects that I find the most interesting.
     </p>
     <p>
-      I also enjoy writing
-      <nuxt-link class="underline" to="/posts">posts</nuxt-link> about topics
-      that interest me. If you want to contact me you can send me an email at
+      If you want to contact me you can send me an email at
       <a class="underline" href="mailto:wiu753@gmail.com">wiu753@gmail.com</a>.
       I'm also on
       <a href="https://www.twitter.com/wiu753" class="underline">Twitter</a>,
@@ -38,7 +38,7 @@ export default {
   computed: {
     age() {
       return this.$store.getters.age
-    }
-  }
+    },
+  },
 }
 </script>

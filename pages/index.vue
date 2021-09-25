@@ -7,9 +7,10 @@
     </p>
     <p class="mb-6">
       I'm a minimalist, lifelong learner, and dog lover. People usually describe
-      me as a pretty calm, collected, and accepting guy. I love to read books,
-      where some of my favorite topics are mental health, technology, and
-      finance. Occasionally I
+      me as a pretty calm, collected, and accepting guy. In my free time, I love
+      to read books hang out with friends and play golf. Some of my favorite
+      topics when reading is mental health, technology, and finance.
+      Occasionally I
       <nuxt-link class="underline" to="/posts">write</nuxt-link> about the
       subjects that I find the most interesting.
     </p>

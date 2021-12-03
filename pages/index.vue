@@ -10,12 +10,12 @@
       me as a pretty calm, collected, and accepting guy. In my free time, I love
       to read books hang out with friends and play golf. Some of my favorite
       topics when reading is mental health, technology, and finance.
-      Occasionally I
-      <nuxt-link class="underline" to="/posts">write</nuxt-link> about the
-      subjects that I find the most interesting.
     </p>
     <p>
-      If you want to contact me you can send me an email at
+      Occasionally I
+      <nuxt-link class="underline" to="/posts">write</nuxt-link> about the
+      subjects that I fnid the most interesting. If you want to contact me you
+      can send me an email at
       <a class="underline" href="mailto:wiu753@gmail.com">wiu753@gmail.com</a>.
       I'm also on
       <a href="https://www.twitter.com/wiu753" class="underline">Twitter</a>,
@@ -29,6 +29,8 @@
     </p>
   </main>
 </template>
+
+
 
 <script>
 export default {

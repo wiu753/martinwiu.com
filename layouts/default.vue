@@ -11,11 +11,6 @@ import Navbar from '@/components/Navbar'
 export default {
   components: {
     Navbar
-  },
-
-  mounted() {
-    // eslint-disable-next-line no-console
-    console.log(this.$store.getters.moo)
   }
 }
 </script>

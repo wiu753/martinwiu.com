@@ -13,9 +13,13 @@
     </p>
     <p>
       Occasionally I
-      <nuxt-link class="underline" to="/posts">write</nuxt-link> about the
-      subjects that I find the most interesting. If you want to contact me, you
-      can email me at
+      <a
+        class="underline"
+        href="https://wiu.notion.site/5e0b9db08c7f4ef69deffb8114db309e"
+        >write</a
+      >
+      about the subjects and books that I find the most interesting. If you want
+      to contact me, you can email me at
       <a class="underline" href="mailto:wiu753@gmail.com">wiu753@gmail.com</a>.
       I'm also on
       <a href="https://www.twitter.com/wiu753" class="underline">Twitter</a>,
@@ -29,18 +33,12 @@
   </main>
 </template>
 
-
-
 <script>
 export default {
-  transition(to, from) {
-    return 'slide-right'
-  },
-
   computed: {
     age() {
       return this.$store.getters.age
-    },
-  },
+    }
+  }
 }
 </script>

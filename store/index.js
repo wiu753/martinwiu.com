@@ -12,16 +12,6 @@ const getters = {
       age--
     }
     return age
-  },
-  moo: () => {
-    return `
-    < mooooooooooooooooooooooooooooooooooooo >
-     ----------------------------------------
-            \\   ^__^
-             \\  (oo)\\_______
-                (__)\\       )\\/\\
-                    ||----w |
-                    ||     ||`
   }
 }
 

@@ -9,7 +9,7 @@
       I'm a minimalist, lifelong learner, and dog lover. People usually describe
       me as a pretty calm, collected, and accepting guy. I love to read books,
       hang out with friends, and play golf in my free time. When reading, my
-      favorite topics are mental health, technology, and finance.
+      favorite topics are mental health, psychology, and technology.
     </p>
     <p>
       Occasionally I

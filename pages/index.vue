@@ -13,19 +13,6 @@
     </p>
     <p class="flex flex-col">
       <span>
-        <a
-          class="underline"
-          href="https://wiu.notion.site/54f303fec6344fdf945bdf7dcb510add?v=f34189ff94f340d69640a3869f0123f5"
-          >Projects</a
-        >
-        and
-        <a
-          class="underline"
-          href="https://wiu.notion.site/5e0b9db08c7f4ef69deffb8114db309e"
-          >book reports</a
-        >.
-      </span>
-      <span>
         <a class="underline" href="mailto:wiu753@gmail.com">Email</a>,
         <a href="https://www.twitter.com/wiu753" class="underline">Twitter</a>,
         <a href="https://www.github.com/wiu753" class="underline">GitHub</a> and

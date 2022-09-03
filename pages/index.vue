@@ -6,10 +6,10 @@
       South-Eastern Norway.
     </p>
     <p class="mb-6">
-      I'm a minimalist, lifelong learner, and dog lover. People usually describe
-      me as a pretty calm, collected, and accepting guy. I love to read books,
+      I'm a minimalist, lifelong learner, and dog lover. People around me describe me 
+      as calm, understanding, structured, and open-minded. I love to read books,
       hang out with friends, and play golf in my free time. When reading, my
-      favorite topics are mental health, psychology, and technology.
+      favorite topics are psychology, philosophy and technology.
     </p>
     <p class="flex flex-col">
       <span>
@@ -17,7 +17,7 @@
         <a href="https://www.twitter.com/wiu753" class="underline">Twitter</a>,
         <a href="https://www.github.com/wiu753" class="underline">GitHub</a> and
         <a
-          href="https://www.linkedin.com/in/martin-wiulsr%C3%B8d-3a1412161/"
+          href="https://www.linkedin.com/in/martinwiu"
           class="underline"
           >LinkedIn</a
         >

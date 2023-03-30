@@ -2,30 +2,28 @@
   <main>
     <p class="mb-6">
       Hello! My name is Martin Wiu. I'm a {{ age }}-year-old Norwegian web
-      developer currently studying software engineering at the University of
-      South-Eastern Norway.
+      developer currently studying computer engineering with a specialty in
+      cybersecurity at the University of South-Eastern Norway. I have two years
+      of experience as a web developer using JavaScript, TypeScript, and Vue.js.
     </p>
     <p class="mb-6">
       I'm a lifelong learner and minimalist. People around me describe me as
-      curious, calm, understanding, and open-minded. I love to read books, hang
-      out with friends, and play golf in my free time. When reading, my favorite
-      topics are psychology, philosophy and technology.
+      curious, calm, understanding, and open-minded. I love to read books, spend
+      time with my lovely girlfriend, make new friends, and play golf. When
+      reading, my favorite topics are psychology, philosophy and technology.
     </p>
     <p class="mb-6">
       My current favorite books are "<a
         href="https://www.amazon.co.uk/Will-Change-Men-Masculinity-Love-ebook/dp/B00BORC1R8/"
         class="underline"
-        >The Will to Change</a
-      >: Men, Masculinity, and Love" by bell hooks, "<a
-        href="https://www.amazon.co.uk/How-Not-Die-Alone-Surprising-ebook/dp/B08SXX2QFM/"
-        class="underline"
-        >How to Not Die Alone</a
-      >: The Surprising Science That Will Help You Find Love" by Logan Ury, and
-      "<a
+        >The Will to Change: Men, Masculinity, and Love"
+      </a>
+      by bell hooks and "<a
         href="https://www.amazon.com/Happiness-Hypothesis-Finding-Modern-Ancient/dp/0465028020"
         class="underline"
-        >The Happiness Hypothesis</a
-      >: Finding Modern Truth in Ancient Wisdom" by Jonathan Haidt.
+        >The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom"
+      </a>
+      by Jonathan Haidt.
     </p>
     <p class="flex flex-col">
       <span>

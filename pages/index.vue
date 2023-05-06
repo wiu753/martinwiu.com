@@ -1,29 +1,16 @@
 <template>
   <main>
     <p class="mb-6">
-      Hello! My name is Martin Wiu. I'm a {{ age }}-year-old Norwegian web
-      developer currently studying computer engineering with a specialty in
-      cybersecurity at the University of South-Eastern Norway. I have two years
-      of experience as a web developer using JavaScript, TypeScript, and Vue.js.
+      Hello! My name is Martin Wiu. I'm a {{ age }}-year-old Norwegian software
+      developer currently studying for a bachelor's in computer engineering with
+      a specialty in cybersecurity at the University of South-Eastern Norway. I
+      also have a bachelor's in information systems and two years of working
+      experience as a software developer.
     </p>
     <p class="mb-6">
-      I'm a lifelong learner and minimalist. People around me describe me as
-      curious, calm, understanding, and open-minded. I love to read books, spend
-      time with my lovely girlfriend, make new friends, and play golf. When
-      reading, my favorite topics are psychology, philosophy and technology.
-    </p>
-    <p class="mb-6">
-      My current favorite books are "<a
-        href="https://www.amazon.co.uk/Will-Change-Men-Masculinity-Love-ebook/dp/B00BORC1R8/"
-        class="underline"
-        >The Will to Change: Men, Masculinity, and Love"
-      </a>
-      by bell hooks and "<a
-        href="https://www.amazon.com/Happiness-Hypothesis-Finding-Modern-Ancient/dp/0465028020"
-        class="underline"
-        >The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom"
-      </a>
-      by Jonathan Haidt.
+      I'm a lifelong learner and minimalist. I love to read books, spend time
+      with my girlfriend, play games with friends, and play golf. When reading,
+      my favorite topics besides tech are psychology and philosophy.
     </p>
     <p class="flex flex-col">
       <span>

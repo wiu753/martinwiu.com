@@ -8,9 +8,9 @@
       experience as a software developer.
     </p>
     <p class="mb-6">
-      I'm a lifelong learner and minimalist. I love to read books, spend time
-      with my girlfriend, play games with friends, and play golf. When reading,
-      my favorite topics besides tech are psychology and philosophy.
+      I'm a lifelong learner and minimalist. I love to read books, play games
+      with friends, and play golf. When reading, my favorite topics besides tech
+      are psychology and philosophy.
     </p>
     <p class="flex flex-col">
       <span>

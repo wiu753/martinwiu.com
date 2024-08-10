@@ -1,17 +1,18 @@
-/*
- ** TailwindCSS Configuration File
- **
- ** Docs: https://tailwindcss.com/docs/configuration
- ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
- */
-module.exports = {
-  purge: [
-    './components/*.vue',
-    './pages/*.vue',
-    './pages/**/*.vue',
-    './layouts/*.vue'
-  ],
+export default {
   theme: {},
-  variants: {},
-  plugins: [require('@tailwindcss/ui')]
+  plugins: [],
+  content: [
+    `./components/**/*.{vue,js,ts}`,
+    `./layouts/**/*.vue`,
+    `./pages/**/*.vue`,
+    `./composables/**/*.{js,ts}`,
+    `./plugins/**/*.{js,ts}`,
+    `./utils/**/*.{js,ts}`,
+    `./App.{js,ts,vue}`,
+    `./app.{js,ts,vue}`,
+    `./Error.{js,ts,vue}`,
+    `./error.{js,ts,vue}`,
+    `./app.config.{js,ts}`
+  ]
 }
+

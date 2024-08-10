@@ -2,7 +2,6 @@
   <nav>
     <div class="sm:mt-8 lg:mt-24">
       <div class="flex items-center mt-2 mb-2 sm:justify-start">
-        <!-- Profile image. -->
         <img
           class="block w-auto h-10 rounded-full sm:h-24 lg:h-32"
           src="/martinwiu.jpeg"

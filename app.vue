@@ -17,7 +17,7 @@ if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
       <main>
         <p class="mb-6">
           Hello! My name is Martin Wiu. I'm a {{ age }}-year-old Norwegian software engineer with two Bachelor of Science degrees: one in Information Systems and IT Leadership, and the other in Computer Engineering. I am currently working
-          as a software engineer in Kongsberg Norcontrol.
+          as a software engineer in Kongsberg Gruppen.
         </p>
         <p class="mb-6">
           I'm a lifelong learner and minimalist. I love to read books and play golf. When reading, my favorite topics besides tech
@@ -27,7 +27,6 @@ if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
           <span>
             <a class="underline" href="mailto:martinwiu@proton.me">Email</a>,
             <a href="https://www.github.com/wiu753" class="underline">GitHub</a> and
-            <a href="https://www.linkedin.com/in/martinwiu" class="underline">LinkedIn</a>
           </span>
         </p>
       </main>

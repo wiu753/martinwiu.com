@@ -7,7 +7,7 @@
         <p class="mb-6">
           Hello!
         </p>
-        <p>I am Martin Wiu — a software engineer, reader, golfer, and minimalist.</p>
+        <p>I am Martin Wiu — a software engineer.</p>
         <p class="mt-6 flex flex-col">
           <span>
             <a class="underline" href="mailto:martinwiu@proton.me">Email</a> and
